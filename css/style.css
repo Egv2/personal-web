@@ -1,0 +1,145 @@
+img {
+  height: 100px; /* Logo yüksekliği */
+  width: auto; /* Genişlik otomatik olarak ayarlanacak */
+  margin-top: 20px;
+  margin-right: 1200px;
+
+}
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    color: #000000;
+    font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+    text-align: center;
+    /* img size is 50x50 */
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+    -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+    /* Safari 4+ */
+    -moz-animation: bg-scrolling-reverse 0.92s infinite;
+    /* Fx 5+ */
+    -o-animation: bg-scrolling-reverse 0.92s infinite;
+    /* Opera 12+ */
+    animation: bg-scrolling-reverse 0.92s infinite;
+    /* IE 10+ */
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 20px 0;
+}
+
+.nav-button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 246, 246);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+
+.card {
+  display: block;
+  width: 70%;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  transition: opacity 1s;
+  margin: auto;
+}
+
+
+#home {
+    display: block;
+    opacity: 1;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 50%;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+}
+
+footer {
+    height: 40px;
+    text-align: center;
+} 
+
+/* Animation Stuff */
+
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+/* Animation Stuff End */
+
